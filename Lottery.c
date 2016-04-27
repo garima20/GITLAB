@@ -1,14 +1,15 @@
 #include <stdio.h>
 void main()
 {
+
   int WinLotteryNo[10] = {1634, 1711, 5515, 7233, 5614, 8876, 1215, 4232, 9155, 9995}; 
-  float WinAmount[10] = {50000, 10000, 10000, 5000, 5000, 5000, 5000, 3000, 3000, 1000};
+  float WinAmount[10] = {50000, 10000, 10000, 7000, 5000, 5000, 5000, 3000, 3000, 1000};
   int N = 10;
   int i, won; 
   
   int YourLotteryNo;  
    
-  printf("Enter your Lottery Number (0 to end): "); 
+  printf("Type your Lottery Number (0 to end): "); 
   scanf("%d", &YourLotteryNo); 
   while (YourLotteryNo != 0) 
   { 
